@@ -1,0 +1,18 @@
+#ClearChat v0.2 by ItzDatMC
+#Edit below
+command /clearchat:
+    description: Clear the chat
+    permission: (You-have-to-add-cuz-idk-what-perms-do-your-server-have)
+    permission message: &cYou do not have permission to do this action!
+    trigger:
+        loop 200 times:
+            broadcast " "
+        broadcast "&b[INFORMATION]&a The chat was cleared by &c%player%."
+command /cc:
+    description: Clear the chat
+    permission: (You-have-to-add-cuz-idk-what-perms-do-your-server-have)
+    permission message: &cYou do not have permission to do this action!
+    trigger:
+        loop 200 times:
+            broadcast " "
+        broadcast "&b[INFORMATION]&a The chat was cleared by &c%player%."
